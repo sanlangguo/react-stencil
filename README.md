@@ -1,6 +1,6 @@
 ### `yarn start` 
-yarn run start  (dev) 默认运行dev环境
-yarn run start:exam (exam) 测试环境
+yarn run start  (dev) 默认运行dev环境  
+yarn run start:exam (exam) 测试环境  
 yarn run start:pro  (pro) 生产环境
 
 ### `yarn run build`
