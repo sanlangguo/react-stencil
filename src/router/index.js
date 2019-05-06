@@ -4,7 +4,7 @@ import Home from "../views/Home/index";
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" text="Home" component={Home} />
     </Switch>
   </main>
 );

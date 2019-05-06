@@ -12,6 +12,8 @@ function JudgmentCurrentServerUrl(ENV) {
   return currentServerUrl;
 }
 
+console.log(process.env.NODE_ENV, 'env')
+
 const service = axios.create({
   baseURL: JudgmentCurrentServerUrl(process.env.NODE_ENV),
   headers: {
