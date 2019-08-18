@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from '../../components/Header/index'
-import { getResourcesToken } from '../../api/index';
+import Father from '../../components/Father/Father'
+// import { getResourcesToken } from '../../api/index';
 
 export default class Home extends Component {
   constructor(props) {
@@ -12,12 +13,10 @@ export default class Home extends Component {
   }
 
   componentDidMount() {
-    console.log("react data");
-    getResourcesToken().then(
-
-    ).catch(() => {
-      console.log('error get api data')
-    });
+    // getResourcesToken().then(
+    // ).catch(() => {
+    //   console.log('error get api data')
+    // });
   }
 
   render() {
@@ -26,6 +25,7 @@ export default class Home extends Component {
         <p>home</p>
         <p>{this.state.name}</p>
         <Header />
+        <Father />
       </div>
     );
   }
