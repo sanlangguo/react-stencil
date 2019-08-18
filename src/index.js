@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { browserHistory } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 
 ReactDOM.render(
-  <browserHistory>
+  <BrowserRouter>
     <App />
-  </browserHistory>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
