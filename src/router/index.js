@@ -1,8 +1,9 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../views/Home/index";
 import Home2 from "../views/Home2/index";
 
-const Main = () => (
+const AppRouter = () => (
   <Router>
     <Switch>
       <Route path="/" exact component={Home} />
@@ -11,4 +12,4 @@ const Main = () => (
   </Router>
 );
 
-export default Main;
+export default AppRouter;
