@@ -1,14 +1,16 @@
-import { Route, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../views/Home/index";
-import Login from "../views/Login/index";
+import Home2 from "../views/Home2/index";
+import Hooks01 from "../views/Hooks/test01";
 
-const Main = () => (
-  <main>
+const AppRouter = () => (
+  <Router>
     <Switch>
-      <Route exact path="/" text="首页" component={Home} />
-      <Route path="/login" text="测试" component={Login} />
+      <Route path="/" exact component={Hooks01} />
+      <Route path="/home2" component={Home2} />
     </Switch>
-  </main>
+  </Router>
 );
 
-export default Main;
+export default AppRouter;

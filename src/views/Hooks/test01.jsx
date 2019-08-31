@@ -6,7 +6,7 @@ function test01() {
     return (
         <div>
             <p>click {count} times</p>
-            <button onClick={() => {setCount(count + 2)}}></button>
+            <button onClick={() => {setCount(count + 2)}}>hooks点击更改states</button>
         </div>
     );
 
