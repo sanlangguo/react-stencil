@@ -11,8 +11,8 @@ import Hooks05 from "../views/Hooks/useReduce/test05";
 const AppRouter = () => (
   <Router>
     <Switch>
-      <Route path="/" exact component={Hooks05} />
-      <Route path="/home2" component={Home2} />
+      <Route path="/" exact component={Home2} />
+      {/* <Route path="/home2" component={Home2} /> */}
     </Switch>
   </Router>
 );

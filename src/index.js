@@ -8,7 +8,7 @@ import App from "./App";
 ReactDOM.render(
   <BrowserRouter>
     <AppRouter/>
-    <App />
+    {/* <App /> */}
   </BrowserRouter>,
   document.getElementById("root")
 );
