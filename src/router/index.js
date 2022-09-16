@@ -7,14 +7,12 @@ import Hooks02 from "../views/Hooks/test02";
 import Hooks03 from "../views/Hooks/test03";
 import Hooks04 from "../views/Hooks/test04";
 import Hooks05 from "../views/Hooks/useReduce/test05";
-import useContext from "../views/Hooks/useContext.jsx";
-import useContext2 from "../views/Hooks/useContext2.jsx";
 
 const AppRouter = () => (
   <Router>
     <Switch>
       <Route path="/" exact component={Home2} />
-      <Route path="/useContext" component={useContext2} />
+      {/* <Route path="/home2" component={Home2} /> */}
     </Switch>
   </Router>
 );
